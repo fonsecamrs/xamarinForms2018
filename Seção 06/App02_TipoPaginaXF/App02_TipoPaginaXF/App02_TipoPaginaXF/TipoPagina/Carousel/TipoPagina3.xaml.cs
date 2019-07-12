@@ -16,5 +16,19 @@ namespace App02_TipoPaginaXF.TipoPagina.Carousel
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void MudarPagina(object sender, EventArgs args)
+        {
+            //Somente muda de página normal
+            //App.Current.MainPage = new Navigation.Pagina1();
+
+            //Muda de página para páginas NavigationPage
+            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1())
+            {
+                BarBackgroundColor = Color.Blue,
+                BarTextColor = Color.White
+            };
+        }
+
+    }
 }

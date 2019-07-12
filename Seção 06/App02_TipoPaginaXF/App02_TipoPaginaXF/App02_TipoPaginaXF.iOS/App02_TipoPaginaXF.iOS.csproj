@@ -166,4 +166,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\Page.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\garbage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\loupe.png" />
+  </ItemGroup>
 </Project>

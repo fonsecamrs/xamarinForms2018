@@ -132,6 +132,9 @@
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="BotaoPlay.png" />
     <Content Include="CodigoDeBarras.png" />
+    <Content Include="file.png" />
+    <Content Include="garbage.png" />
+    <Content Include="loupe.png" />
     <Content Include="Page.png" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>

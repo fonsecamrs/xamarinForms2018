@@ -7,7 +7,7 @@
         <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="Vamos Começar" TextColor="Blue"
                 HorizontalOptions="CenterAndExpand" />
-            <Button Image="BotaoPlay.png" BackgroundColor="Transparent"/>
+            <Button Image="BotaoPlay.png" Clicked="MudarPagina" BackgroundColor="Transparent"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

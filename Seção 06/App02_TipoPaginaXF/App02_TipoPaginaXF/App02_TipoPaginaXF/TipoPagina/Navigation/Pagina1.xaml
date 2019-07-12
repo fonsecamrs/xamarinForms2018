@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02_TipoPaginaXF.TipoPagina.Navigation.Pagina1"
+             BackgroundColor="LightSkyBlue">
+    <ContentPage.Title>Título da Navigation</ContentPage.Title>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisar" Icon="loupe.png"/>
+        <ToolbarItem Text="Detalhes" Icon="file.png"/>
+        <ToolbarItem Text="Excluir" Icon="garbage.png"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Eu sou uma ContentPage"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                Text="Ir para página 2"
+                Clicked="MudarParaPagina2"
+                BackgroundColor="DarkGray"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
