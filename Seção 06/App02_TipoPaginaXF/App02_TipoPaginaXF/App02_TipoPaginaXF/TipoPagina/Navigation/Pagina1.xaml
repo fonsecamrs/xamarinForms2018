@@ -20,6 +20,20 @@
                 TextColor="White"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"/>
+            <Button
+                Text="Chamar Modal"
+                Clicked="ChamarModal"
+                BackgroundColor="Yellow"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"/>
+            <Button
+                Text="Chamar Master"
+                Clicked="ChamarMaster"
+                BackgroundColor="LightGray"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

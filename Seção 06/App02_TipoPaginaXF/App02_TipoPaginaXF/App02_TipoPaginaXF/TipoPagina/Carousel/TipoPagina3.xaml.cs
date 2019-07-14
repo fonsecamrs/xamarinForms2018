@@ -23,11 +23,14 @@ namespace App02_TipoPaginaXF.TipoPagina.Carousel
             //App.Current.MainPage = new Navigation.Pagina1();
 
             //Muda de página para páginas NavigationPage
-            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1())
-            {
-                BarBackgroundColor = Color.Blue,
-                BarTextColor = Color.White
-            };
+            //App.Current.MainPage = new NavigationPage(new Navigation.Pagina1())
+            //{
+            //    BarBackgroundColor = Color.Blue,
+            //    BarTextColor = Color.White
+            //};
+
+            //Muda de página para páginas TabbedPage
+            App.Current.MainPage = new Tabbed.Abas();
         }
 
     }
