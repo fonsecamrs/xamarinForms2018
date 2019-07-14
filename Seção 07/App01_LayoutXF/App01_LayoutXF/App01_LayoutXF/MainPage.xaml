@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App01_LayoutXF"
+             x:Class="App01_LayoutXF.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Layouts!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button Text="Stack Layout" Clicked="GoPaginaStack"/>
+        <Button Text="Grid Layout" Clicked="GoPaginaGrid"/>
+        <Button Text="Absolute Layout" Clicked="GoPaginaAbsolute"/>
+        <Button Text="Relative Layout" Clicked="GoPaginaRelative"/>
+        <Button Text="Scroll Layout" Clicked="GoPaginaScroll"/>
+    </StackLayout>
+
+</ContentPage>
